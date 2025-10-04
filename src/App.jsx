@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import "./assets/css/templatemo-chain-app-dev.css";
-import "./assets/css/animated.css";
-import "./assets/css/owl.css";
+
 
 
 function App() {
