@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import "./assets/css/templatemo-chain-app-dev.css";
+import "./assets/css/animated.css";
+import "./assets/css/owl.css";
 
 
 function App() {
@@ -7,7 +10,7 @@ function App() {
   return (
     <>
   <header
-    className="header-area header-sticky wow slideInDown"
+    className="header-area header-sticky wow slideInDown "
     data-wow-duration="0.75s"
     data-wow-delay="0s"
   >
