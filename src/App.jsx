@@ -150,7 +150,7 @@ function App() {
         </div>
       </header>
 
-      <div id="modal" className="popupContainer" style={{ display: isModalOpen ? "block" : "none", zIndex: 9999 }}>
+      <div id="modal" className="popupContainer" style={{ display: isModalOpen ? "block" : "none", zIndex: 9999, position: 'fixed' }}>
         <div className="popupHeader">
           <span className="header_title">{modalView === 'register' ? 'Register' : 'Login'}</span>
           <span className="modal_close" onClick={closeModal}>
